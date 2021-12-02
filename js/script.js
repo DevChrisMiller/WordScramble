@@ -1,5 +1,5 @@
 //declare global variables
-const startingWordList = ["harmonica", "elephant", "television", "carpet", "cereal", "speaker", "coffee", "mountain", "chair", "cucumber", "blimp", "baseball", "pizza", "jelly", "highway", "guitar", "viking", "quiz", "camel", "laptop", "pumpkin", "fork", "zebra", "queen", "purple", "bet", "pet", "cow", "anxious", "wet", "cold", "green", "ability", "book", "child", "dream", "early", "energy", "fish", "glass", "month", "phone", "report", "senior", "control", "walk"];
+const startingWordList = ["harmonica", "elephant", "television", "carpet", "cereal", "speaker", "coffee", "mountain", "chair", "cucumber", "blimp", "baseball", "pizza", "jelly", "highway", "guitar", "viking", "quiz", "camel", "laptop", "pumpkin", "fork", "zebra", "queen", "purple", "bet", "pet", "cow", "anxious", "wet", "cold", "green", "ability", "book", "child", "dream", "lobster", "energy", "fish", "glass", "month", "phone", "report", "senior", "control", "walk"];
 let updatedWordList = [];
 let score = 0;
 let correctAnswer = 10;
