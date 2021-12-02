@@ -1,0 +1,86 @@
+/* global styles */
+body {
+    margin: 0;
+    background-image: url("../images/double-bubble-dark.png")
+}
+
+h1 {
+    color: red;
+    font-size: 100px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    margin-bottom: 50px;
+}
+
+/* classes */
+.btn {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.input {
+    height: 40px;
+    width: 300px;
+    font-size: 27px;
+    font-family: 'Indie Flower', cursive;     
+}
+
+/* containers */
+#fullgame {
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    width: 60%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+#livegame {
+    display: none;
+}
+
+#postgame {
+    display: none;
+    font-size: 30px;
+}
+
+/* errors */
+#nameInputError {
+    font-size: 20px;
+    color: red;
+}
+
+/* timer */
+#timer {
+    font-size: 40px;
+}
+
+/* gameplay */
+#currentWord{
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+/* scores */
+#score {
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    color: red;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+#finalScore{
+    color: red;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Word Scramble</title>
+</head>
+<body>
+
+<div id="fullgame">
+    <h1>Word Scramble</h1>
+
+    <div id="pregame">
+        <input id="nameInput" class="input" autofocus="autofocus" autocomplete="off" placeholder="Enter Your Name" onkeydown=keyboardSubmit()><br>
+        <p id="nameInputError"></p>
+        <button class="btn" id="name-input-btn" onclick=setUsername()>Start Game!</button>
+        
+    </div>
+
+    <div id="livegame">
+        <p id="timer"></p>
+        <p id="currentWord"></p>
+
+        <input id="userInput" class="input" autocomplete="off" onkeydown=keyboardSubmit()><br>
+        <button class="btn" id="skip-btn" onclick=skip()>Skip (CTRL)</button>
+        <button class="btn" id="user-input-btn" onclick=checkAnswer(currentWord)>Submit (ENTER)</button>
+        <p id="score"></p>    
+        </div>
+
+    <div id="postgame">
+        <p>Congratulations <span id="username"></span>!<br>
+        Your final score was: <span id="finalScore"></span><br><br>
+        Play again?</p>
+
+        <button class="btn" id="play-again-btn" onclick=startGame()>Restart</button>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
